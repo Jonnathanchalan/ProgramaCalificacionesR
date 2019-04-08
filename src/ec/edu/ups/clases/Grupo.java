@@ -7,7 +7,7 @@ package ec.edu.ups.clases;
 
 /**
  *
- * @author Usuario
+ * @author jonnathan
  */
 public class Grupo {
     

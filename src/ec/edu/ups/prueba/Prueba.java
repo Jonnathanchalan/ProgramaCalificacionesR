@@ -15,7 +15,7 @@ import ec.edu.ups.clases.Profesor;
 import ec.edu.ups.clases.Sede;
 /**
  *
- * @author Usuario
+ * @author jonnathan
  */
 public class Prueba {
 

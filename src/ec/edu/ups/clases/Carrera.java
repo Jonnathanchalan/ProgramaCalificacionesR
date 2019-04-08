@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  *
- * @author Usuario
+ * @author jonnathan
  */
 public class Carrera {
    private int codigo;
