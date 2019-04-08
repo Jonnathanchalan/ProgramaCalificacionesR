@@ -70,7 +70,7 @@ public class Prueba {
         programacion.setProfesor(luisGonzales);
         baseDatos.setProfesor(walterVerdugo);
         logica.setProfesor(luisGonzales);
-        ecuaciones.setProfesor(walter);
+        ecuaciones.setProfesor(walterVerdugo);
         
         HistorialCalificaciones historialjonnathan1 = new HistorialCalificaciones(programacion, jonnathan, 9, 9, 10, 9);
         
