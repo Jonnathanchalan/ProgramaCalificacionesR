@@ -36,13 +36,13 @@ public class Prueba {
         Materia fisica = new Materia(34, "Fisica", 6, 240, 1);
         Materia algebra = new Materia(1, "Ingles", 6, 240, 1);
         
-        Profesor gLeon = new Profesor("Ingeniero", 2500, "Profesor", 23, "Gabriel Leon", "0102351754", "098743441", "Desconocida", "gleon@ups");
-        Profesor pIngavelez = new Profesor("Ingeniero", 2500, "Profesor", 45, "Paola Ingavelez", "0106381154", "098243341", "Desconocida", "pingavelez@ups");
+        Profesor luisGonzales = new Profesor("Ingeniero", 2500, "Profesor", 23, "Luis Gonzales", "0102351754", "098743441", "Desconocida", "gleon@ups");
+        Profesor walterVerdugo = new Profesor("Ingeniero", 2500, "Profesor", 45, "Walter Verdugo", "0106381154", "098243341", "Desconocida", "pingavelez@ups");
         
-        Estudiante eduardo = new Estudiante(4, "Eduardo Ayora", "0106073331", "3012113", "Gustavo Lemus", "aayorao@est.ups.edu.ec");
+        Estudiante ivan = new Estudiante(4, "Ivan Sanchez", "0106073331", "3012113", "Gustavo Lemus", "isanchez@est.ups.edu.ec");
         Estudiante vinicio = new Estudiante(79, "Vinicio Campoverde", "0109568077", "0993127549", "Cuenca", "vcampoverde@est.ups.edu.ec");
-        Estudiante pedro = new Estudiante(12, "Pedro Guamantario", "0106882245", "2274876", "Cuenca", "pguamantario@est.ups.edu.ec");
-        Estudiante david = new Estudiante(79, "David Dután", "0104446726", "2670144", "Paute", "ddutan@est.ups.edu.ec");
+        Estudiante jose = new Estudiante(12, "Jose Tapia", "0106882245", "2274876", "Cuenca", "gtapia@est.ups.edu.ec");
+        Estudiante byron = new Estudiante(79, "Byron Godoy", "0104446726", "2670144", "Paute", "bgodoy@est.ups.edu.ec");
         
         Grupo numero1 = new Grupo(4, "Grupo numero 1", 5);
         Grupo numero2 = new Grupo(5, "Grupo numero 2", 8);
@@ -65,12 +65,12 @@ public class Prueba {
         logica.setGrupo(numero1);
         ecuaciones.setGrupo(numero1);
         
-        algebra.setProfesor(gLeon);
-        fisica.setProfesor(pIngavelez);
-        programacion.setProfesor(gLeon);
-        baseDatos.setProfesor(pIngavelez);
-        logica.setProfesor(gLeon);
-        ecuaciones.setProfesor(pIngavelez);
+        algebra.setProfesor(luisGonzales);
+        fisica.setProfesor(walterVerdugo);
+        programacion.setProfesor(luisGonzales);
+        baseDatos.setProfesor(walterVerdugo);
+        logica.setProfesor(luisGonzales);
+        ecuaciones.setProfesor(walter);
         
         HistorialCalificaciones historialjonnathan1 = new HistorialCalificaciones(programacion, jonnathan, 9, 9, 10, 9);
         
