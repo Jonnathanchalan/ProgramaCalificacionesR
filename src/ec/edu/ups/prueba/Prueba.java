@@ -77,8 +77,5 @@ public class Prueba {
         
         jonnathan.agregarHistorial(historialjonnathan1);
         
-    
-        
-        
     }
 }
