@@ -29,12 +29,12 @@ public class Prueba {
         Carrera telematica = new Carrera(8, "Sistemas", 2, 300, "Ingenieria en Sistemas");
         Carrera mecatronica = new Carrera(9, "Civil", 6, 200, "Ingenieria civil");
         
-        Materia programacion = new Materia(4, "Programacion", 6, 240, 3);
-        Materia baseDatos = new Materia(2, "Bases de Datos", 4, 180, 3);
+        Materia programacion = new Materia(4, "Fundamentos de Programacion", 6, 240, 3);
+        Materia baseDatos = new Materia(2, "Sistemas Operativos", 4, 180, 3);
         Materia ecuaciones = new Materia(9, "Ecuaciones Diferenciales", 6, 240, 2);
-        Materia logica = new Materia(67, "Logica", 4, 160, 1);
-        Materia calculo = new Materia(34, "Calculo", 6, 240, 1);
-        Materia algebra = new Materia(1, "Fundamentos de programacion", 6, 240, 1);
+        Materia logica = new Materia(67, "Teoria Critica", 4, 160, 1);
+        Materia fisica = new Materia(34, "Fisica", 6, 240, 1);
+        Materia algebra = new Materia(1, "Ingles", 6, 240, 1);
         
         Profesor gLeon = new Profesor("Ingeniero", 2500, "Profesor", 23, "Gabriel Leon", "0102351754", "098743441", "Desconocida", "gleon@ups");
         Profesor pIngavelez = new Profesor("Ingeniero", 2500, "Profesor", 45, "Paola Ingavelez", "0106381154", "098243341", "Desconocida", "pingavelez@ups");
@@ -52,21 +52,21 @@ public class Prueba {
         sedeCuenca.agregarCarrera(telematica);
         
         mecatronica.agregarMateria(algebra);
-        mecatronica.agregarMateria(calculo);
+        mecatronica.agregarMateria(fisica);
         computacion.agregarMateria(programacion);
         computacion.agregarMateria(baseDatos);
         telematica.agregarMateria(logica);
         telematica.agregarMateria(ecuaciones);
         
         algebra.setGrupo(numero2);
-        calculo.setGrupo(numero2);
+        fisica.setGrupo(numero2);
         programacion.setGrupo(numero2);
         baseDatos.setGrupo(numero1);
         logica.setGrupo(numero1);
         ecuaciones.setGrupo(numero1);
         
         algebra.setProfesor(gLeon);
-        calculo.setProfesor(pIngavelez);
+        fisica.setProfesor(pIngavelez);
         programacion.setProfesor(gLeon);
         baseDatos.setProfesor(pIngavelez);
         logica.setProfesor(gLeon);
